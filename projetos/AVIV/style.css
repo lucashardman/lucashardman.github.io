@@ -1,0 +1,29 @@
+
+.nav-config{
+    align-items: center;
+}
+.icones{
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+    opacity: 60%;
+    transition: 600ms;
+}
+.icones:hover{
+    opacity: 100%;
+}
+.imagem-carrossel_01{
+    object-fit: cover;
+    object-position: 0 30%;
+    height: 400px;
+}
+.imagem-carrossel_02{
+    object-fit: cover;
+    object-position: 0 80%;
+    height: 400px;
+}
+.imagem-carrossel_03{
+    object-fit: cover;
+    object-position: 0 60%;
+    height: 400px;
+}
