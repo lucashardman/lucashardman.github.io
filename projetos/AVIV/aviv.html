@@ -23,7 +23,8 @@
 
             <li><a class="nav-item nav-link" href="../../index.html">CV</a></li>
             <li><a class="nav-item nav-link" href="../../portifolio.html">Portifólio</a></li>
-            <li><a class="nav-item nav-link" href="../../contato.html">Contato</a></li>
+            <li><a class="nav-item nav-link" data-bs-toggle="modal" data-bs-target="#modal-contato" href="#">Contato</a>
+            </li>
             <li>
               <div class="d-flex justify-content-around">
                 <a class="nav-link" href="http://github.com/lucashardman">
@@ -72,15 +73,39 @@
     </section>
   </main>
   <footer class="bg-secundary">
-    <div>Ícones feitos por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
-        href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
-      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
-      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
-      crossorigin="anonymous"></script>
+    <footer class="bg-secondary p-3">
+      <p class="text-light m-0 text-center"><a class="text-light"
+          href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEb8dGPHX8&#x2F;view?utm_content=DAEb8dGPHX8&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
+          target="_blank" rel="noopener">Design</a> de Lucas Hardman</p>
+      <p class="text-light m-0 text-center">Ícones feitos por <a class="text-light" href="https://www.freepik.com"
+          title="Freepik">Freepik</a> encontrados em <a class="text-light" href="https://www.flaticon.com/br/"
+          title="Flaticon">www.flaticon.com</a></p>
+    </footer>
   </footer>
+  <!-- Modal -->
+  <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <dialog class="modal-content">
+        <header class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Contato</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </header>
+        <main class="modal-body">
+          ...
+        </main>
+        <footer class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </footer>
+      </dialog>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+    integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+    integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

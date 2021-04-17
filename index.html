@@ -24,7 +24,7 @@
 
                         <li><a class="nav-item nav-link active" href="index.html">CV</a></li>
                         <li><a class="nav-item nav-link" href="portifolio.html">Portifólio</a></li>
-                        <li><a class="nav-item nav-link" href="contato.html">Contato</a></li>
+                        <li><a class="nav-item nav-link" data-bs-toggle="modal" data-bs-target="#modal-contato" href="#">Contato</a></li>
                         <li>
                             <div class="d-flex justify-content-around">
                                 <a class="nav-link" href="http://github.com/lucashardman">
@@ -46,32 +46,52 @@
             </div>
         </nav>
     </header>
-    <main class="bg-light">
-        <p>oi</p>
-        <!-- <section>
-      <div class="card" style="width: 18rem;">
-        <img src="img/aviv-thumbnail.jpg" class="card-img-top" alt="Torre Eiffel">
-        <div class="card-body">
-          <h5 class="card-title">Assistente Virtual para Indicações em Viagens</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-    </section> -->
-    <div style="position: relative; width: 100%; height: 0; padding-top: 141.4286%;
- padding-bottom: 48px; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-  <iframe style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEb8dGPHX8&#x2F;view?embed">
-  </iframe>
-</div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEb8dGPHX8&#x2F;view?utm_content=DAEb8dGPHX8&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Design</a> de Lucas Hardman
+    <main class="bg-light m-2">
+        <section class="container">
+            <div class="row justify-content-center">
+                <a class="btn btn-outline-secondary col-8 col-md-4 mt-3" href="files/CV_LUCAS_HARDMAN_APR_2021.pdf"
+                    role="button">Download
+                    CV</a>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <article class="col-12 col-md-8" style="position: relative; width: 100%; height: 0; padding-top: 141.4286%;
+                    padding-bottom: 48px; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+                    border-radius: 8px; will-change: transform;">
+                        <iframe
+                            style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                            src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEb8dGPHX8&#x2F;view?embed">
+                        </iframe>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
     </main>
-    <footer>
-        <div>Ícones feitos por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
-                href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
-    </footer>
+    <footer class="bg-secondary p-3">
+        <p class="text-light m-0 text-center"><a class="text-light" href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEb8dGPHX8&#x2F;view?utm_content=DAEb8dGPHX8&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
+                target="_blank" rel="noopener">Design</a> de Lucas Hardman</p>
+        <p class="text-light m-0 text-center">Ícones feitos por <a class="text-light" href="https://www.freepik.com" title="Freepik">Freepik</a> encontrados em <a
+          class="text-light" href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></p>
+      </footer>
+    <!-- Modal -->
+    <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <dialog class="modal-content">
+                <header class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Contato</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </header>
+                <main class="modal-body">
+                    ...
+                </main>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </footer>
+            </dialog>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
         integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
         crossorigin="anonymous"></script>
