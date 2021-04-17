@@ -9,6 +9,9 @@
     opacity: 60%;
     transition: 600ms;
 }
+main{
+    padding-top: 60px;
+}
 .icones:hover{
     opacity: 100%;
 }

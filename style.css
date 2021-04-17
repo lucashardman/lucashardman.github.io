@@ -1,0 +1,26 @@
+
+.nav-config{
+    align-items: center;
+}
+.icones{
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+    opacity: 60%;
+    transition: 600ms;
+}
+.icones:hover{
+    opacity: 100%;
+}
+main{
+    padding-top: 60px;
+}
+.card-board{
+    object-fit: cover;
+    height: 450px;
+    max-width: 18rem;
+    transition: 600ms;
+}
+.card-board:hover{
+    border-color:black;
+}
